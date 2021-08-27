@@ -49,8 +49,8 @@ body {
 .section{
     background: rgba(238, 238, 238, .6);
 
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     border: 5px rgb(238, 238, 238) solid;
 }
