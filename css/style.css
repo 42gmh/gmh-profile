@@ -1,0 +1,77 @@
+/* *{
+    border: 1px solid pink;
+} */
+
+body {
+    /* background: url("../images/background.jpeg")
+                no-repeat
+                center 
+                center 
+                fixed; */
+    
+    background-size: cover;
+    background-color: cadetblue;
+
+
+    font-family: 'Noto Sans TC', sans-serif;
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.tiles{
+    display: grid;
+    grid-column: auto;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.glyph{
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.section > h1 {
+    background: rgba(238, 238, 238, .6);
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+
+.section > p {
+    text-align: center;
+    /* padding: 5px; */
+}
+
+.section{
+    background: rgba(238, 238, 238, .6);
+
+    margin-left: 100px;
+    margin-right: 100px;
+
+    border: 5px rgb(238, 238, 238) solid;
+}
+
+.glyphs{
+    display: flex;
+    justify-content: center;
+}
+
+.spacer{
+    padding: 10px;
+}
+
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: 5px solid darkgray;
+    border-radius: 40%;
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
