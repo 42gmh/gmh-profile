@@ -40,6 +40,7 @@ body {
 
 .medglyph{
     height: 70px;
+    width: auto;
 }
 
 .bigglyph {
