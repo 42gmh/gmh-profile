@@ -28,7 +28,6 @@ body {
     margin: 10px;
 }
 
-
 .headshot {
     align-items: center;
     border-radius: 40%;
@@ -38,9 +37,11 @@ body {
 .glyph {
     height: 40px;
 }
+
 .medglyph{
     height: 70px;
 }
+
 .bigglyph {
     height: 100px;
 }
@@ -71,6 +72,7 @@ p {
 
 .glyphs {
     display: flex;
+    /* flex-direction: row; */
     justify-content: center;
 }
 
