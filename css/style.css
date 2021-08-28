@@ -1,7 +1,3 @@
-/* *{
-    border: 1px solid pink;
-} */
-
 body {
     background-size: cover;
     background-color: cadetblue;
@@ -43,6 +39,12 @@ body {
     width: auto;
 }
 
+#skillsicons{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
 .bigglyph {
     height: 100px;
 }
@@ -73,7 +75,6 @@ p {
 
 .glyphs {
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
 }
 
@@ -83,4 +84,32 @@ p {
 
 .smallspacer {
     padding: 5px;
+}
+
+@media only screen and (min-width: 374px)
+{
+    #skillsicons {
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 599px)
+{
+    #skillsicons{
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 799px)
+{
+    #skillsicons{
+        grid-template-columns: repeat(3, 33%);
+    }
+}
+
+@media only screen and (min-width: 800px)
+{
+    #skillsicons{
+        grid-template-columns: repeat(5, 20%);
+    }
 }
