@@ -52,7 +52,7 @@ body {
     display: inline-block;   
 }
 
-.section > p {
+p {
     padding: 5px;
 }
 
