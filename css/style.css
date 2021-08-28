@@ -22,6 +22,7 @@ body {
 
 .headshot,
 .glyph,
+.medglyph,
 .bigglyph {
     padding: 5px;
     margin: 10px;
@@ -37,6 +38,9 @@ body {
 .glyph {
     height: 40px;
 }
+.medglyph{
+    height: 70px;
+}
 .bigglyph {
     height: 100px;
 }
@@ -48,8 +52,8 @@ body {
     text-align: center;
 }
 
-.fepsection {
-    display: inline-block;   
+.subsection {
+    display: inline-block;
 }
 
 p {
